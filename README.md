@@ -9,7 +9,7 @@ M.S. in Applied Artificial Intelligence, Sungkyunkwan University.
 <!-- BEGIN OPEN SOURCE CONTRIBUTIONS -->
 ## Open Source Contributions
 
-- **Agno**: Identified silent text loss in grouped PowerPoint shapes, traced the cause to missing traversal of nested shapes, and provided a minimal reproduction used to verify the upstream fix. ([Issue #9999](https://github.com/agno-agi/agno/issues/9999))
+- **Agno**: Fixed silent CSV row loss during asynchronous pagination by applying header skipping only to the first page; identified silent text loss in grouped PowerPoint shapes, traced the cause to missing traversal of nested shapes, and provided a minimal reproduction used to verify the upstream fix. ([PR #9995](https://github.com/agno-agi/agno/pull/9995), [Issue #9999](https://github.com/agno-agi/agno/issues/9999))
 - **Google ADK**: Fixed empty-text artifacts being treated as missing by removing an incorrect rejection in the shared in-memory load path; fixed file artifact creation timestamps changing on every metadata read by preserving persisted timestamps in the shared conversion helper. ([PR #7072](https://github.com/google/adk-python/pull/7072), [PR #7113](https://github.com/google/adk-python/pull/7113))
 - **Ratatui**: Fixed a BufferDiff rendering bug that left stale background and underline styles on wide Unicode glyphs by clearing trailing cells before repainting. ([PR #2743](https://github.com/ratatui/ratatui/pull/2743))
 - **rhwp**: Fixed keyboard activation failures in text and highlight color controls by separating selection-preserving mousedown handling from standard click activation. ([PR #6786](https://github.com/edwardkim/rhwp/pull/6786))
