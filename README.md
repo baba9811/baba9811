@@ -1,6 +1,6 @@
 # Kyubum Hwang
 
-AI Research Engineer at Infobank. I build AI services and contribute bug reports, fixes, and regression tests to open-source projects.
+AI Research Engineer at Infobank. I build AI services and contribute to open-source projects.
 
 M.S. in Applied Artificial Intelligence, Sungkyunkwan University.
 
@@ -14,10 +14,6 @@ M.S. in Applied Artificial Intelligence, Sungkyunkwan University.
 - **Ratatui**: Fixed a BufferDiff rendering bug that left stale background and underline styles on wide Unicode glyphs by clearing trailing cells before repainting. ([PR #2743](https://github.com/ratatui/ratatui/pull/2743))
 - **rhwp**: Fixed keyboard activation failures in text and highlight color controls by separating selection-preserving mousedown handling from standard click activation. ([PR #6786](https://github.com/edwardkim/rhwp/pull/6786))
 <!-- END OPEN SOURCE CONTRIBUTIONS -->
-
-## Projects
-
-- [Typerlude](https://github.com/baba9811/typerlude): A Korean and English typing interlude for the terminal.
 
 ## Publications
 
