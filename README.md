@@ -9,6 +9,7 @@ M.S. in Applied Artificial Intelligence, Sungkyunkwan University.
 <!-- BEGIN OPEN SOURCE CONTRIBUTIONS -->
 ## Open Source Contributions
 
+- **[agentscope-ai/ReMe](https://github.com/agentscope-ai/ReMe)**: Fixed large malformed JSON chunking failures with an LF-preserving text fallback. ([PR #557](https://github.com/agentscope-ai/ReMe/pull/557))
 - **[agno-agi/agno](https://github.com/agno-agi/agno)**: Fixed silent CSV row loss during asynchronous pagination by applying header skipping only to the first page. ([PR #9995](https://github.com/agno-agi/agno/pull/9995)) Identified silent text loss in grouped PowerPoint shapes, traced the cause to missing traversal of nested shapes, and provided a minimal reproduction used to verify the upstream fix. ([Issue #9999](https://github.com/agno-agi/agno/issues/9999))
 - **[edwardkim/rhwp](https://github.com/edwardkim/rhwp)**: Fixed keyboard activation failures in text and highlight color controls by separating selection-preserving mousedown handling from standard click activation. ([PR #6786](https://github.com/edwardkim/rhwp/pull/6786))
 - **[google/adk-docs](https://github.com/google/adk-docs)**: Clarified that Python session-history filters limit the loaded event view while preserving stored history when new events are appended. ([PR #2244](https://github.com/google/adk-docs/pull/2244))
